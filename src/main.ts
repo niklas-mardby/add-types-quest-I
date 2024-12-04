@@ -9,6 +9,7 @@ import {
 } from "./func/monster";
 import { commonColor, numberOfColors } from "./func/dog";
 
+// Fixa så funktionen gör det den ska
 const printSum = (a, b) => {
 	console.log(0);
 };
@@ -50,6 +51,7 @@ console.log(
 	`Medelantalet hobbies per användare är ${averageNumberOfHobbies(arr)}`
 );
 // skriv ut "Den personen med flest hobbies har Y stycken hobbies". Byt ut Y mot ett funktionsanrop. Skapa den funktionen.
+// skriv ut "Den äldsta personen är A och den yngsta är B". Byt ut A och B mot funktionsanrop. Ska de två funktionerna
 
 const dogs = [
 	{ name: "Nisse", color: "brown" },
