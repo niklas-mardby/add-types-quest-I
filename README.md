@@ -20,6 +20,7 @@ Tips: börja med att typa upp allt (och kanske flytta runt kod till egna filer)
 
 3. Lägg till det som kommentarerna i koden efterfrågar
 
-4.
+# Alla quests
 
-5. (kommer mer här...)
+-  https://github.com/niklas-mardby/add-types-quest-I
+-  https://github.com/niklas-mardby/fruit-types-quest-II
