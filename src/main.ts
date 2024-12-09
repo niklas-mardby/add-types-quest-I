@@ -7,7 +7,7 @@ import {
 	numberOfMonstersWithWings,
 	prettyPrintMonster,
 } from "./func/monster";
-import { commonColor, numberOfColors } from "./func/dog";
+import { commonColor, Dog, numberOfColors } from "./func/dog";
 
 // Fixa så funktionen gör det den ska
 const printSum = (a, b) => {
@@ -53,7 +53,7 @@ console.log(
 // skriv ut "Den personen med flest hobbies har Y stycken hobbies". Byt ut Y mot ett funktionsanrop. Skapa den funktionen.
 // skriv ut "Den äldsta personen är A och den yngsta är B". Byt ut A och B mot funktionsanrop. Ska de två funktionerna
 
-const dogs = [
+const dogs: Dog[] = [
 	{ name: "Nisse", color: "brown" },
 	{ name: "Fiffi", color: "white" },
 	{ name: "Fluffe", color: "black" },
