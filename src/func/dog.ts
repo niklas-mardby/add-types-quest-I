@@ -6,11 +6,24 @@ export type Dog = {
 export const numberOfColors = (dogs: Dog[]): number => {
 	// dogs = arrayen med hundar
 	// Hundarna har ${numberOfColors(dogs)} antal unika färger.
-	let numberOfUniqueColors = 0;
 
 	// hända massa stuff
+	const uniqueColors: string[] = [];
 
-	return numberOfUniqueColors;
+	dogs.forEach((dog) => {
+		console.log(dog.color);
+
+		// kolla om dog.color finns i uniqueColors
+		// om inte så lägg till
+		// annars gå vidare
+		const thisColor = dog.color;
+		const index = uniqueColors.indexOf(thisColor);
+		console.log(index);
+		if (index === -1) uniqueColors.push(dog.color);
+		//if (!colorExists) uniqueColors.push(dog.color);
+	});
+
+	return uniqueColors.length;
 };
 
 export const commonColor = (d) => {};
